@@ -16,11 +16,10 @@ sudo apt-get install ros-indigo-libphidgets
 rosdep install phidgets_drivers
 rosmake phidgets_drivers
 
-sudo apt-get install libusb-1.0-0 libusb-1.0-0-dev #probably unnecessary
-
 roscd
 cd ../
 catkin_make
+sh src/phidgets_drivers/phidgets_api/share/setup-udev.sh
 ```
 
 ## Running
