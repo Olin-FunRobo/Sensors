@@ -8,8 +8,10 @@
 cd ~/catkin_ws/src
 git clone https://github.com/ccny-ros-pkg/phidgets_drivers.git
 
-rosdep install libphidgets
-rosmake libphidgets
+sudo apt-get install ros-indigo-libphidgets
+# alternatively,
+# rosdep install libphidgets
+# rosmake libphidgets
 
 rosdep install phidgets_drivers
 rosmake phidgets_drivers
