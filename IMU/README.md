@@ -38,3 +38,13 @@ rosrun phidgets_imu imu_node
 rosbag play imu.bag
 rviz -d imu.rviz
 ```
+
+### If RVIZ doesn't work
+
+One of the problems that we've encountered was RViz being unable to load the plugin.
+
+Install the IMU plugin as follows:
+
+```bash
+sudo apt-get install ros-indigo-rviz-imu-plugin
+```

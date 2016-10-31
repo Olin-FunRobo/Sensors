@@ -21,6 +21,8 @@ rosrun uvc_camera uvc_camera_node _device:="/dev/video0"
 
 Follow the instructions on [This Tutorial](https://olinrobotics.github.io/Odroid_Setup/arpose#calibrating-the-camera)
 
+**DO NOT follow the instructions related to reinstalling libpcre. It will break your packages.**
+
 ## Visualizing the Results
 
 Follow the instructions [here](https://olinrobotics.github.io/Odroid_Setup/arpose#if-arpose-still-fails)
