@@ -25,7 +25,7 @@ sh src/phidgets_drivers/phidgets_api/share/setup-udev.sh
 ## Running
 
 ```
-rosrun phidgets_imu imu_node
+rosrun phidgets_imu phidgets_imu_node
 
 # You may have to plug it in while it's waiting
 # When you're running for the first time
